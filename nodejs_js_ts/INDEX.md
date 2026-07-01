@@ -10,6 +10,11 @@
 | 03 | [03_javascript.md](03_javascript.md) | JavaScript (async, var/let/const, this, Promise, Set/Map) | 19 |
 | 04 | [04_web_html_css.md](04_web_html_css.md) | WEB (CORS, DNS, REST) + HTML/CSS (центрування, схлопування) | 9 |
 | 05 | [05_html_script_practical.md](05_html_script_practical.md) | HTML/Script (defer/async, tabindex) + практичні JS-задачі | 12 |
+| 06 | [06_nodejs_middle_q66_q83.md](06_nodejs_middle_q66_q83.md) | Node.js Middle/Senior: concurrency, пам'ять, модулі, libuv, кеш | 18 |
+| 07 | [07_nodejs_middle_q84_q96.md](07_nodejs_middle_q84_q96.md) | Node.js Middle/Senior: middleware, EventEmitter, стрими, сигнали, pino | 13 |
+| 08 | [08_typescript.md](08_typescript.md) | TypeScript: типи, generics, narrowing, utility/mapped/conditional, discriminated unions | 20 |
+| 09 | [09_react.md](09_react.md) | React: компоненти, Hooks, Context API, оптимізація, Vite, Shadcn UI | 20 |
+| 10 | [10_javascript_advanced.md](10_javascript_advanced.md) | JS/Node Advanced: замикання, прототипи, currying, generators, Proxy, coercion, Buffer, memory leaks | 20 |
 
 ## Блок 01 — зміст (швидка навігація)
 1. Що таке Node.js
@@ -68,6 +73,44 @@
 54. Відстань між елементами (⚠️ обрізане — потрібен код)
 
 > Питання 40–45 пропущено в нумерації користувача.
+
+## Блок 10 — зміст (JS/Node Advanced)
+1. Замикання (closures) · 2. Прототипне наслідування (`__proto__` vs `prototype`) · 3. Оператор `new` (4 кроки) · 4. Debounce vs Throttle · 5. Currying та partial application · 6. Memoization · 7. Generators та iterators · 8. Symbols · 9. Proxy та Reflect · 10. `==` vs `===` та coercion · 11. Shallow vs deep copy (`structuredClone`) · 12. Event delegation/bubbling/capturing · 13. Immutability (`Object.freeze`) · 14. map/filter/reduce + чейнінг · 15. Array мутуючі vs немутуючі + `sort()`-пастка · 16. Обробка помилок · 17. Spread/rest/destructuring · 18. Buffer та бінарні дані · 19. `nextTick` vs `setImmediate` vs `setTimeout` · 20. Витоки пам'яті
+
+## Блок 06 — зміст (Node.js Middle/Senior 66–83)
+66. Переваги Node.js проти інших технологій
+67. Коли кілька процесів/потоків
+68. Паралельне vs асинхронне (на серверах)
+69. Типи асинхронних операцій
+70. Які модулі Node знаєте
+71. Операційні помилки vs помилки програміста
+72. Сервіси моніторингу й логування
+73. libuv та його складові
+74. Шаблони розподілених транзакцій (2PC/Saga)
+75. Контроль пам'яті програмно (WeakRef, ліміти)
+76. Garbage Collector (V8, generational)
+77. Витік пам'яті та запобігання
+78. Дебаг heap out of memory (snapshots)
+79. Налаштування кешування (in-memory/Redis/HTTP)
+80. child_process vs worker_threads vs cluster
+81. ES modules vs CommonJS
+82. EventEmitter (node:events)
+83. Скільки ядер за замовчуванням (одне)
+
+## Блок 07 — зміст (Node.js Middle/Senior 84–96)
+84. Middleware — чому окремо від коду сервісу
+85. EventEmitter (стисло)
+86. Призначення package.json
+87. Читання великого файлу (300MB → стрим)
+88. Цикл подій (event loop, фази)
+89. Thread Pool / Worker Pool (libuv, 4 потоки)
+90. SIGTERM vs SIGINT (graceful shutdown)
+91. Backpressure у стримах
+92. PassThrough і pipe/pipeline
+93. Події data/end/error/finish
+94. Обробка помилок у стримах (pipeline > pipe)
+95. Приклади стримів різних типів
+96. pino (structured logging)
 
 ## Блок 05 — зміст (швидка навігація)
 54. Відстань між елементами (повна задача: block 25px / flex)
